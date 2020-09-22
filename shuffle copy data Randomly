@@ -1,0 +1,7 @@
+shuf -n 1  -e /home/jungle/project/test/fuu/* | xargs -i mv {} /home/jungle/project/test/abnormal/
+
+
+where 
+/home/jungle/project/test/fuu/* : Source File
+/home/jungle/project/test/abnormal/ : Destination file
+
